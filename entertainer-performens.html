@@ -29,53 +29,45 @@
     <header>
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
-                <!-- Logo Section -->
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets\Image\ATC Logo.png" alt="Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="About.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Experimtial_marketing.html">Experiential Marketing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Event_Management.html">Event Management</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Event_Services.html">Event Services</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownEvent">
-                                <li><a class="dropdown-item" href="audio-visual.html">Audio Visual</a></li>
-                                <li><a class="dropdown-item" href="video-graphy.html">Video Graphy</a></li>
-                                <li><a class="dropdown-item" href="led-wall.html">Led Wall</a></li>
-                                <li><a class="dropdown-item" href="lighting.html">Lighting</a></li>
-                                <li><a class="dropdown-item" href="stage.html">Stage</a></li>
-                                <li><a class="dropdown-item" href="virtual-live-stream.html">Virtual Live Stream</a></li>
-                                <li><a class="dropdown-item" href="special-effects.html">Special Effects</a></li>
-                            </ul>
-
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Entertainment.html">Entertainment</a>
-                            <ul class="dropdown-menu " aria-labelledby="navbarDropdownEvent ">
-                                <li><a class="dropdown-item" href="event-emeers-india.html">Event Emcees India</a></li>
-                                <li><a class="dropdown-item" href="event-djs-edm.html">India Events DJS, EDM Artists, Turntablists</a></li>
-                                <li><a class="dropdown-item" href="live-music.html">Live Music | Event Live Band India</a></li>
-                                <li><a class="dropdown-item" href="entertainer-performens.html">Entertainers and Performers</a></li>
-                                <li><a class="dropdown-item" href="wedding-entertainment.html">Wedding Entertainment</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Connect.html">Connect</a>
-                        </li>
-                    </ul>
+                <div class="logo">
+                    <a href="index.html"><img src="assets\Image\ATC Logo.png" alt="Logo"></a>
                 </div>
+                <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+                <ul class="menu">
+                    <li><a href="About.html" class="nav-link">About</a></li>
+                    <li><a href="Experimtial_marketing.html" class="nav-link">Experiential Marketing</a></li>
+                    <li><a href="Event_Management.html" class="nav-link">Event Management</a></li>
+                    <li class="has-dropdown nav-link"> <a href="Event_Services.html">Event Services</a>
+                        <ul class="dropdown">
+                            <li><a href="audio-visual.html" class="nav-link">Audio Visual</a></li>
+                            <li><a href="video-graphy.html" class="nav-link">Video Graphy</a></li>
+                            <li><a href="led-wall.html" class="nav-link">Led Wall</a></li>
+                            <li><a href="lighting.html" class="nav-link">Lighting</a></li>
+                            <li><a href="stage.html" class="nav-link">Stage</a></li>
+                            <li><a href="virtual-live-stream.html" class="nav-link">Virtual Live Stream</a></li>
+                            <li><a href="special-effects.html" class="nav-link">Special Effects</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown nav-link"> <a href="Entertainment.html">Entertainment</a>
+                        <ul class="dropdown">
+                            <li><a href="Event_emcee_india.html" class="nav-link">Event Emcees India</a></li>
+                            <li><a href="event-djs-edm.html" class="nav-link">India Events DJS, EDM Artists,
+                                    Turntablists</a></li>
+                            <li><a href="live-music.html" class="nav-link">Live Music | Event Live Band India</a></li>
+                            <li class="has-submenu nav-link"> <a href="wedding-entertainment.html">Wedding Entertainment
+                                </a>
+                                <ul class="dropdown-submenu">
+                                    <li><a href="Wedding-emcee.html" class="nav-link">Wedding Emrcee</a></li>
+                                    <li><a href="Wedding-dj.html" class="nav-link">Weddig Dj</a></li>
+                                    <li><a href="Wedding-live-bands.html" class="nav-link">Wedding Live Bands</a></li>
+                                    <li><a href="Wedding-string-emsemble.html" class="nav-link">Wedding String
+                                            Emsemble</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="Connect.html" class="nav-link">Connect</a></li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -103,7 +95,8 @@
     <!-- Scroll Up Button -->
     <button id="scrollUp" onclick="topFunction()" class="btn"><i class="fa-solid fa-arrow-up"></i></button>
 
-
+    <!-- Whatsapp Button -->
+    <a href="Connect.html"> <button id="whatsapp"  class="btn"><i class="fa-brands fa-whatsapp"></i></button></a>
 
 
     <script src="script.js"></script>
