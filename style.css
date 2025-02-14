@@ -65,7 +65,7 @@ li {
 }
 
 body {
-    background-color: white;
+    background-color: #F6F6F1;
     color: white;
 }
 
@@ -204,10 +204,12 @@ body {
     width: 200px;
     border: 1px solid black;
     border-radius: 15px;
-    background-color: #f7f7f7;
+    background-color: #F6F6F1;
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+
 
 .dropdown-submenu{
     display: none;
@@ -220,7 +222,7 @@ body {
     width: 200px;
     border: 1px solid black;
     border-radius: 15px;
-    background-color: #f7f7f7;
+    background-color: #F6F6F1;
     backdrop-filter: blur(20px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -257,6 +259,8 @@ body {
     
     
 }
+
+
 
 .has-submenu1{
     top: 0;
@@ -316,12 +320,13 @@ body {
 /* Footer Section */
 
 footer {
-    background-color: #F2F2F2;
+    background-color: #FAFAF0;
     padding: 15px 0;
 }
 
 footer a {
     color: red;
+    font-size: 22px;
 }
 
 
@@ -599,7 +604,7 @@ footer a {
 }
 
 .contact-form {
-    background: white;
+    background: #FAFAF0;
     padding: 33px;
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
